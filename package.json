@@ -1,0 +1,21 @@
+{
+  "name": "privmeta-telegram-bot",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Telegram bot that accepts photos, image documents, and PDFs and sends them back as documents.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "pdf-lib": "^1.17.1",
+    "sharp": "^0.33.5",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "typescript": "^5.8.3"
+  }
+}
